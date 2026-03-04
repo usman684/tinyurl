@@ -111,7 +111,7 @@ const Hero = () => {
                 <button className="w-full bg-green-700 text-white py-2 rounded-sm hover:bg-green-800">
                   Shorten Link
                 </button>
-                <p class='w-90 justify-center text-[11px]'>By clicking Shorten Link, you agree with our <a href="#"><i class='text-blue-500'>Terms of Service, Privacy Policy</i>,</a> and <a href='#'><i class='text-blue-500'> Use of Cookies</i>.</a></p>
+                <p class='w-90 justify-center text-[11px]'>By clicking Shorten Link, you agree with our <a href="#"><i class='text-blue-500 hover:underline'>Terms of Service, Privacy Policy</i>,</a> and <a href='#'><i class='text-blue-500 hover:underline'> Use of Cookies</i>.</a></p>
               </>
             ) : (
               <>
