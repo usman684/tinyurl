@@ -320,7 +320,7 @@ const Hero = () => {
 
         <div className="w-full h-1/2 flex bg-[#002342]">
 
-          <div className="w-1/2 h-full pl-5 pt-15 pb-10 font-sans flex items-center">
+          <div className="w-1/2 h-full pl-5 pt-15 pb-8 font-sans flex items-center">
             <div className="px-10 text-white max-w-xl"> 
               <h1 className="text-4xl font-bold leading-tight pb-5">
                 Transforming the Digital Landscape Since ‘02
