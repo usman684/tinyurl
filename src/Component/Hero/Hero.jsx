@@ -275,17 +275,17 @@ const Hero = () => {
             <div className="flex justify-evenly">
               <div className="flex-col ">
               <div>
-              <a href="#" onMouseEnter={() => setHoverImage("public/card-feature-0.webp")} class="bg-neutral-primary-soft block max-w-55 p-2 border border-none rounded-md shadow-xs       hover:bg-blue-100 mb-2 mt-6">
+              <a href="#" onMouseEnter={() => setHoverImage("/card-feature-0.webp")} class="bg-neutral-primary-soft block max-w-55 p-2 border border-none rounded-md shadow-xs       hover:bg-blue-100 mb-2 mt-6">
                 <h5 class="mb-2 text-2xl font-semibold tracking-tight text-heading leading-8">Unlimited Tracked Clicks</h5>
                 <p class="text-body">We don’t believe in making you suffer for your success: track as many clicks as you earn with our Pro plans!</p>
               </a></div>
                <div>
-              <a href="#" onMouseEnter={() => setHoverImage("public/card-feature-1.webp")} class="bg-neutral-primary-soft block max-w-55 p-2 border border-none rounded-md shadow-xs       hover:bg-blue-100 mb-2 mt-6">
+              <a href="#" onMouseEnter={() => setHoverImage("/card-feature-1.webp")} class="bg-neutral-primary-soft block max-w-55 p-2 border border-none rounded-md shadow-xs       hover:bg-blue-100 mb-2 mt-6">
                 <h5 class="mb-2 text-2xl font-semibold tracking-tight text-heading leading-8">Detailed Link Analytics</h5>
                 <p class="text-body">Get actionable, detailed insights into your social media, emails, ads, and any other platforms where click-through matters.</p>
               </a></div>
                <div>
-              <a href="#" onMouseEnter={() => setHoverImage("public/card-feature-2.webp")} class="bg-neutral-primary-soft block max-w-55 p-2 border border-none rounded-md shadow-xs      hover:bg-blue-100 mb-2 mt-6">
+              <a href="#" onMouseEnter={() => setHoverImage("/card-feature-2.webp")} class="bg-neutral-primary-soft block max-w-55 p-2 border border-none rounded-md shadow-xs      hover:bg-blue-100 mb-2 mt-6">
                 <h5 class="mb-2 text-2xl font-semibold tracking-tight text-heading leading-8">Branded Domains</h5>
                 <p class="text-body">Links shortened using your own custom domain are more professional, more trustworthy, and more clickable.</p>
               </a></div>
@@ -298,17 +298,17 @@ const Hero = () => {
               </div>
               <div className="flex-col">
               <div>
-              <a href="#" onMouseEnter={() => setHoverImage("public/image.png")} class="bg-neutral-primary-soft block max-w-55 p-2 border border-none rounded-md shadow-xs      hover:bg-blue-100 mb-2 mt-6">
+              <a href="#" onMouseEnter={() => setHoverImage("/image.png")} class="bg-neutral-primary-soft block max-w-55 p-2 border border-none rounded-md shadow-xs      hover:bg-blue-100 mb-2 mt-6">
                 <h5 class="mb-2 text-2xl font-semibold tracking-tight text-heading leading-8">Unlimited Tracked Clicks</h5>
                 <p class="text-body">We don’t believe in making you suffer for your success: track as many clicks as you earn with our Pro plans!</p>
               </a></div>
                <div>
-              <a href="#" onMouseEnter={() => setHoverImage("public/card-feature-4.webp")} class="bg-neutral-primary-soft block max-w-55 p-2 border border-none rounded-md shadow-xs     hover:bg-blue-100 mb-2 mt-6">
+              <a href="#" onMouseEnter={() => setHoverImage("/card-feature-4.webp")} class="bg-neutral-primary-soft block max-w-55 p-2 border border-none rounded-md shadow-xs     hover:bg-blue-100 mb-2 mt-6">
                 <h5 class="mb-2 text-2xl font-semibold tracking-tight text-heading leading-8">Detailed Link Analytics</h5>
                 <p class="text-body">Get actionable, detailed insights into your social media, emails, ads, and any other platforms where click-through matters.</p>
               </a></div>
                <div>
-              <a href="#" onMouseEnter={() => setHoverImage("public/card-feature-5.webp")} class="bg-neutral-primary-soft block max-w-55 p-2 border border-none rounded-md shadow-xs     hover:bg-blue-100 mb-2 mt-6">
+              <a href="#" onMouseEnter={() => setHoverImage("/card-feature-5.webp")} class="bg-neutral-primary-soft block max-w-55 p-2 border border-none rounded-md shadow-xs     hover:bg-blue-100 mb-2 mt-6">
                 <h5 class="mb-2 text-2xl font-semibold tracking-tight text-heading leading-8">Branded Domains</h5>
                 <p class="text-body">Links shortened using your own custom domain are more professional, more trustworthy, and more clickable.</p>
               </a></div>
@@ -354,7 +354,7 @@ const Hero = () => {
 
           <div className="mr-20 w-1/2 h-1/2 relative">
             <video
-              src="public/platform-highlight-video.mp4"
+              src="/platform-highlight-video.mp4"
               autoPlay
               muted
               loop
