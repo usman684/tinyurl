@@ -57,7 +57,7 @@ const Navbar = () => {
             <button className="p-5 cursor-pointer hover:underline text-white text-xl">
               Log In
             </button>
-            <button className="bg-blue-400 pb-9 hover:bg-blue-500 rounded-md h-10 w-22 text-xl text-white font-sans p-2 cursor-pointer">
+            <button className="bg-blue-400 pb-9 hover:bg-blue-500 rounded-md h-10 w-25 text-xl text-white font-sans p-2 cursor-pointer">
               Sign Up
             </button>
           </div>
