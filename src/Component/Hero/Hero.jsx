@@ -152,7 +152,8 @@ const Hero = () => {
     <input
       type="text"
       placeholder="No links yet in your history"
-      className="w-full h-11 bg-white border-2 rounded-lg pl-10 font-bold text-black"
+      readOnly
+      className="w-full h-11 bg-white border-2 placeholder-black rounded-lg pl-10 font-bold text-black"
     />
 
   </div>
