@@ -24,7 +24,7 @@ const Hero = () => {
 
       console.log("Sending request...");
 
-      const res = await axios.post("axios.post('https://tinyurlserver-production-db2f.up.railway.app/api/shorten')", {
+      const res = await axios.post("axios.post('https://tinyurlserver-production-db2f.up.railway.app/api/save')", {
         longUrl: longUrl,
         alias: alias,
       });
