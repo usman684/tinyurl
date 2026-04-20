@@ -26,7 +26,7 @@ const Hero = () => {
 
       const res = await axios.post("http://localhost:5050/save", {
         longUrl: longUrl,
-        alias: alias,s
+        alias: alias,
       });
 
       console.log("Response:", res.data);
