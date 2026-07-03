@@ -70,11 +70,17 @@ This project demonstrates my ability to develop scalable full-stack applications
 
 ---
 
-# 🎥 Project Demo
+# 📷 Screenshots
 
-Watch the complete project demo below.
+### 🏠 Home Page
 
-[▶️ Watch URL Shortener Demo](./screenshots/urlshortner.mp4)
+<img src="./screenshot/urlshort.png" width="900" alt="URL Shortener Demo"/>
+
+---
+
+### 🔗 URL Shortener Dashboard
+
+<img src="./screenshot/urlshort1.png" width="900" alt="URL Shortener Demo"/>
 
 ---
 
@@ -111,7 +117,7 @@ npm run dev
 ```text
 tinyurl/
 │
-├── screenshots/
+├── screenshot/
 │
 ├── client/
 │
